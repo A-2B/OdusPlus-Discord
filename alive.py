@@ -1,6 +1,7 @@
 from flask import Flask
 from threading import Thread
 
+#This just hosts any ping server you linked it to, and keeps pinging the script.
 app = Flask('')
 
 @app.route('/')
